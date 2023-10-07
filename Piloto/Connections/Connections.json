@@ -1,0 +1,43 @@
+{
+  "2a16b1ed-2d7d-4b56-bd6c-452e8735fdb8": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://vlisa.sharepoint.com/sites/MenuECN2": {
+        "dataSources": {
+          "arrEventos": {
+            "tableName": "c009d199-1b5e-4ae4-a8af-32841a8405e2"
+          },
+          "ClassMEC": {
+            "tableName": "b1186529-dffc-4038-9c15-4e1dc0c4258d"
+          },
+          "DescricaoOC": {
+            "tableName": "693da306-b668-4d7b-97c3-b4d630009b46"
+          },
+          "EventosMEC": {
+            "tableName": "f47f6484-3ddb-484b-bfbf-8d710d52e673"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "DescricaoOC",
+      "ClassMEC",
+      "EventosMEC",
+      "arrEventos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2a16b1ed-2d7d-4b56-bd6c-452e8735fdb8"
+  }
+}

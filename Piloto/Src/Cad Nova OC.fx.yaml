@@ -506,7 +506,7 @@
         Y: =8
         ZIndex: =3
 
-    Icon1_2 As icon.Home:
+    icTela_Inicial2 As icon.Home:
         Color: =RGBA(255, 255, 255, 1)
         Height: =72
         Icon: =Icon.Home

@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "{131D1576-85B9-4707-B76B-12CB9501EF14}": "{\"name\":\"{131D1576-85B9-4707-B76B-12CB9501EF14}\",\"title\":\"arr_Eventos\",\"x-ms-permission\":\"read-write\",\"x-ms-capabilities\":{\"sortRestrictions\":{\"sortable\":true},\"filterRestrictions\":{\"filterable\":true},\"filterFunctionSupport\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Apontamento\":{\"type\":\"string\",\"title\":\"Apontamento\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"__PowerAppsId__\":{\"type\":\"string\",\"title\":\"__PowerAppsId__\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "arr_Eventos",
+  "TableName": "{131D1576-85B9-4707-B76B-12CB9501EF14}"
+}

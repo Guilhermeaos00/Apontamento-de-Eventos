@@ -39,39 +39,5 @@
     "dependencies": {},
     "dependents": [],
     "id": "2a16b1ed-2d7d-4b56-bd6c-452e8735fdb8"
-  },
-  "38d548e4-cde9-4b33-8c7c-67a061c1e912": {
-    "connectionRef": {
-      "displayName": "Excel Online (Business)",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness"
-    },
-    "datasets": {
-      "me,b%2521tKXVY6pLgU-CCcImwpvjUOw61QWMt89MtI0cIxPOxHNDM-9uGnWGQ6W7JBbIjTaj,01VH3EENQWW6ZNJFO7GNH2OMXHQGD7CQIZ": {
-        "dataSources": {
-          "arr_Eventos": {
-            "tableName": "{131D1576-85B9-4707-B76B-12CB9501EF14}"
-          },
-          "db_ClassMEC": {
-            "tableName": "{AFADEA7B-C545-494D-BA2A-779C193AE51C}"
-          },
-          "db_Descricao": {
-            "tableName": "{ACC5BFD7-390F-4B0D-89E8-1CA1B0D364DB}"
-          },
-          "db_Eventos": {
-            "tableName": "{9E3D66BE-E716-4DCE-87CA-8949CC574FCA}"
-          }
-        }
-      }
-    },
-    "dataSources": [
-      "arr_Eventos",
-      "db_ClassMEC",
-      "db_Descricao",
-      "db_Eventos"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "38d548e4-cde9-4b33-8c7c-67a061c1e912"
   }
 }

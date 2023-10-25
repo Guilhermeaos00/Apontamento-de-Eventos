@@ -74,7 +74,9 @@ CadEventos As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: |-
                     =If(varMec = true, "Mecânica",
-                    varOP = true, "Operação")
+                    varOP = true, "Operação",
+                    varVP = true, "Via Permanente",
+                    varPA = true, "Prontidão Ambiental")
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70

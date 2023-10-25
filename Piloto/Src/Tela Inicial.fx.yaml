@@ -281,26 +281,6 @@
         Y: =179
         ZIndex: =11
 
-    icDash As icon.Trending:
-        Color: =RGBA(50, 86, 160, 1)
-        Height: =55
-        Icon: =Icon.Trending
-        OnSelect: =Navigate(Screen4)
-        X: =448
-        Y: =144
-        ZIndex: =12
-
-    Label10_2 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Semibold
-        Height: =22
-        Size: =10
-        Text: ="Dashboard"
-        Width: =97
-        X: =433
-        Y: =190
-        ZIndex: =13
-
     Icon2 As icon.OptionsList:
         Color: =RGBA(255, 255, 255, 1)
         Height: =61
@@ -390,7 +370,7 @@
             Color: =RGBA(15, 84, 140, 1)
             Height: =82
             Size: =15
-            Text: ="Olá, " & User().FullName & ", selecione um dos itens abaixo"
+            Text: ="Olá, " & User().FullName & ". Selecione um dos itens abaixo"
             Width: =294
             X: =131
             Y: =98

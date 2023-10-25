@@ -1,9 +1,0 @@
-Screen4 As screen:
-
-    PowerBI5 As powerbi:
-        Height: =1136
-        TileUrl: |-
-            ="https://app.powerbi.com/reportEmbed?reportId=f3f4e6cc-34d3-4d16-855c-a2f155ba7fb4&autoAuth=true&ctid=eef8f41a-1fa3-486c-9dc3-2fa5f63c9231"
-        WorkspaceId: ="5e78ff38-96ad-4dca-b14a-bfc164ea9d24"
-        ZIndex: =1
-

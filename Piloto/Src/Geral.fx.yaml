@@ -1,0 +1,271 @@
+Geral As screen:
+    Fill: =RGBA(56, 96, 178, 1)
+
+    Container4_13 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =61
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =583
+        X: =28
+        Y: =19
+        ZIndex: =1
+
+    Label5_6 As label:
+        Align: =Align.Center
+        Color: =RGBA(56, 96, 178, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =61
+        Size: =28
+        Text: ="Eventos"
+        Width: =448
+        X: =93
+        Y: =19
+        ZIndex: =2
+
+    icRefresh_1 As icon.Add:
+        Color: =RGBA(56, 96, 178, 1)
+        Height: =48
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(EventosMEC)
+        Width: =51
+        X: =541
+        Y: =25
+        ZIndex: =3
+
+    Container4_14 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =871
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =584
+        X: =32
+        Y: =235
+        ZIndex: =4
+
+    icTela_Inicial_1 As icon.Home:
+        Color: =RGBA(56, 96, 178, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate('Tela Inicial'); Set(varMec, false)
+        X: =29
+        Y: =16
+        ZIndex: =5
+
+    "Gallery4_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =870
+        Items: =Filter(EventosMEC, Título = Dropdown1.Selected.Título)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =200
+        Width: =584
+        X: =32
+        Y: =235
+        ZIndex: =6
+
+        Separator5_2 As rectangle:
+            Fill: =RGBA(56, 96, 178, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Rectangle8_2 As rectangle:
+            Height: =Parent.TemplateHeight - Separator5_2.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =6
+
+        Label6_10 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(50, 86, 160, 1)
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.DataInicio
+            Width: =149
+            X: =13
+            Y: =79
+            ZIndex: =7
+
+        Label6_13 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(50, 86, 160, 1)
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.DataFim
+            Width: =149
+            X: =13
+            Y: =140
+            ZIndex: =8
+
+        Label6_11 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(50, 86, 160, 1)
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.HoraInicio
+            Width: =149
+            X: =176
+            Y: =79
+            ZIndex: =9
+
+        Label6_14 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(50, 86, 160, 1)
+            Height: =33
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.HoraFim
+            Width: =149
+            X: =176
+            Y: =140
+            ZIndex: =10
+
+        Label7_10 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(136, 160, 209, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: ="Data início"
+            Width: =149
+            X: =13
+            Y: =55
+            ZIndex: =11
+
+        Label7_13 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(136, 160, 209, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: ="Data Fim"
+            Width: =149
+            X: =13
+            Y: =116
+            ZIndex: =12
+
+        Label7_11 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(136, 160, 209, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: ="Hora início"
+            Width: =149
+            X: =176
+            Y: =55
+            ZIndex: =13
+
+        Label7_14 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(136, 160, 209, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: ="Hora Fim"
+            Width: =149
+            X: =176
+            Y: =116
+            ZIndex: =14
+
+        Label7_12 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(136, 160, 209, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: ="Observações"
+            Width: =231
+            X: =341
+            Y: =55
+            ZIndex: =15
+
+        Label6_12 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(50, 86, 160, 1)
+            Height: =94
+            OnSelect: =Select(Parent)
+            Size: =12
+            Text: =ThisItem.Observacao
+            Width: =231
+            X: =341
+            Y: =79
+            ZIndex: =16
+
+        Label8_2 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =43
+            OnSelect: =Select(Parent)
+            Size: =18
+            Text: =ThisItem.Evento
+            Width: =475
+            X: =9
+            ZIndex: =17
+
+        Label15 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =55
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: =ThisItem.Resp
+            Width: =108
+            X: =464
+            Y: =12
+            ZIndex: =18
+
+    Dropdown1 As dropdown:
+        Height: =63
+        Items: =DescricaoOC.Título
+        Size: =21
+        Width: =579
+        X: =32
+        Y: =146
+        ZIndex: =7
+
+    Label5_7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =31
+        Size: =20
+        Text: ="OC"
+        Width: =82
+        X: =55
+        Y: =106
+        ZIndex: =8
+
+    Icon7 As icon.FilterFlat:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Icon: =Icon.FilterFlat
+        Width: =37
+        X: =28
+        Y: =93
+        ZIndex: =9
+

@@ -57,7 +57,7 @@
       "exportimportcomponents2": true,
       "externalmessage": false,
       "fluentv9controls": false,
-      "fluentv9controlspreview": false,
+      "fluentv9controlspreview": true,
       "formuladataprefetch": true,
       "formularepair": false,
       "generatedebugpublishedapp": false,
@@ -133,6 +133,7 @@
   "ScreenOrder": [
     "Tela Inicial",
     "Cad Nova OC",
+    "Geral",
     "Área",
     "Mecânica",
     "Operação",

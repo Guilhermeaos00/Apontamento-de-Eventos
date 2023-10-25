@@ -939,7 +939,8 @@ Operação As screen:
                                 HoraInicio: colHRinicio,
                                 DataFim: Value(colDataFim),
                                 HoraFim: colHRfim,
-                                Observacao: colObs
+                                Observacao: colObs,
+                                Resp: colResp            
                             })))); Clear(colEventos))
             
         Repeat: =true

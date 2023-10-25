@@ -30,7 +30,7 @@ CadEventos As screen:
                     colOperacao: varOperacao,
                     colResp: DataCardValue20.Text
                 }));
-                Navigate(Mecânica)
+                Back(ScreenTransition.Fade)
                 
         X: =562
         Y: =7
